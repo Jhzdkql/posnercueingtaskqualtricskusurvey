@@ -118,6 +118,7 @@
           "fill": "#ffffff",
           "stroke": null,
           "strokeWidth": 1,
+          "strokeDashArray": null,
           "strokeLineCap": "butt",
           "strokeDashOffset": 0,
           "strokeLineJoin": "round",
