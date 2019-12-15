@@ -1722,7 +1722,9 @@ document.getElementsByClassName("container")[0].style.border = "none";
     {
       "type": "lab.html.Screen",
       "parameters": {},
-      "responses": {},
+      "responses": {
+        "keypress": "detect"
+      },
       "messageHandlers": {
         "run": function anonymous(
 ) {
@@ -1732,7 +1734,8 @@ document.querySelector(".container").style.border = "1px solid var(--color-borde
       },
       "title": "Thanks",
       "content": "\u003Cheader\u003E\r\n  \u003Ch1\u003EThank you!\u003C\u002Fh1\u003E\r\n\u003C\u002Fheader\u003E\r\n\u003Cmain class=\"content-vertical-center content-horizontal-center\"\u003E\r\n  \u003Cdiv class=\"m-w text-center\"\u003E\r\n    \u003Cp\u003E\u003Cstrong\u003EThe experiment is now complete.\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E\r\n    \u003Cp\u003EThank you for taking the time!\u003C\u002Fp\u003E\r\n  \u003C\u002Fdiv\u003E\r\n\u003C\u002Fmain\u003E\r\n\u003Cfooter\u003E\r\n  \u003Cp\u003EYou can now close this window.\u003C\u002Fp\u003E\r\n\u003C\u002Ffooter\u003E",
-      "files": {}
+      "files": {},
+      "timeout": "200"
     }
   ]
 })
